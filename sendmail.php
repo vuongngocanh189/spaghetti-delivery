@@ -22,17 +22,17 @@
 		     //send email
 		     $mail = new PHPMailer;
 		     $mail->isSMTP();  
-		     $mail->CharSet='UTF-8';                                    // Set mailer to use SMTP
-			 $mail->Host = ''; 						 // Specify main and backup SMTP servers
-			 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-			 $mail->Username = '';                 // SMTP username
-			 $mail->Password = '';                           // SMTP password
-			 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+		     $mail->CharSet='UTF-8';                                    
+			 $mail->Host = ''; 						 
+			 $mail->SMTPAuth = true;                               
+			 $mail->Username = '';                 
+			 $mail->Password = '';                           
+			 $mail->SMTPSecure = 'ssl';                           
 			 $mail->Port = 465;  
 			 $mail->isHTML(true);
 
-			 $mail->setFrom('info@valmiitkotisivut.fi', 'Valmiitkotisivut');
-		     $mail->addAddress('info@valmiitkotisivut.fi', 'Valmiitkotisivut');
+			 $mail->setFrom('', '');
+		     $mail->addAddress('', '');
 		     $mail->Subject = 'Spaghetti order';
 		     $mail->Body    = '<p>Order here:<br />
 		     					Name: '. $name .'<br />
