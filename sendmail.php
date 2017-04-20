@@ -3,7 +3,7 @@
 	$name = trim($_POST['name']);
 	$phone = trim($_POST['phone']);
 	$address = trim($_POST['address']);
-	$spg = trim($_POST['spg']);
+	$spg = $_POST['spg'];
 	$payment = trim($_POST['payment']);
 	$message = trim($_POST['message']);
 	$email = trim($_POST['email']);
@@ -13,8 +13,7 @@
 		$payment != null &&
 		$email != null)
 	{
-		$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-		if(!preg_match($email_exp,$email)==0) 
+		if(filter_var($email, FILTER_VALIDATE_EMAIL) === false) 
 		{
 			$signal = 'bad';
 		  	$msg = 'Invalid email. Please check.';
