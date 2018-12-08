@@ -129,7 +129,7 @@
 		</div>
 		<div class="panel-footer">
 			<article>
-				<p>This is a sample website from <a href="w.https://funnyreino.com" target="_blank">FunnyReino</a>. Photos used in this site are free-to-use resources from <a href="http://unsplash.com" target="_blank">unsplash</a> and <a href="http://stocksnap.io" target="_blank">stocksnap</a>.</p>
+				<p>This is a sample website from <a href="https://funnyreino.com" target="_blank">FunnyReino</a>. Photos used in this site are free-to-use resources from <a href="http://unsplash.com" target="_blank">unsplash</a> and <a href="http://stocksnap.io" target="_blank">stocksnap</a>.</p>
 			</article>
 		</div>
 	</div>		
