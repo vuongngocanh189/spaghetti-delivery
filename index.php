@@ -65,7 +65,7 @@
 									  </span>
 									  <input type="text" class="form-control" value="PayPal" disabled="disable">
 									</div><!-- /input-group -->
-								</div><!-- /.col-lg-12 -->	
+								</div><!-- /.col-lg-12 -->
 								<div class="col-lg-12">
 									<div class="input-group">
 									  <span class="input-group-addon">
@@ -73,14 +73,14 @@
 									  </span>
 									  <input type="text" class="form-control" value="Cash On Delivery" disabled="disable">
 									</div><!-- /input-group -->
-								</div><!-- /.col-lg-12 -->	
+								</div><!-- /.col-lg-12 -->
 							</div>
 						</div>
 					</div>
-					<div class="form-group">   
+					<div class="form-group">
 					    <div class="controls">
 					    	<label for="message" class="col-sm-2 control-label">Message</label>
-							<div class="col-sm-10"> 
+							<div class="col-sm-10">
 								<textarea rows="5" cols="100" name="message" class="form-control" id="message" style="resize:none" /></textarea>
 							</div>
 					    </div>
@@ -89,13 +89,13 @@
 					 	<button type="submit" class="btn btn-primary center-block" id="submit">
 					 		SEND FORM
 					 	</button>
-					 </div>	
+					 </div>
 				</form>
 	        </div>
         </div>
 	</div>
 </div>
-			
+
 <div class="col-md-6 col-md-offset-6">
 	<div class="panel panel-default">
 		<div class="panel-heading">
@@ -105,10 +105,10 @@
 			</div>
 		</div>
 		<div class="panel-body">
-			<?php 
+			<?php
 			foreach($spag as $sp)
 			{
-				echo 
+				echo
 				"<div class='col-lg-4 col-md-6 col-sm-6'>
 				 	<div class='thumbnail'>
 					 	<div class='wrapper'>
@@ -124,15 +124,15 @@
 				 		<button value='". $sp['name'] ."' class='btn btn-success buy-btn' data-toggle='modal' data-target='#order'>BUY</button>
 				 	</div>
 			 	</div>";
-			} 
+			}
 			?>
 		</div>
 		<div class="panel-footer">
 			<article>
-				<p>This is a sample website from <a href="https://funnyreino.com" target="_blank">FunnyReino</a>. Photos used in this site are free-to-use resources from <a href="http://unsplash.com" target="_blank">unsplash</a> and <a href="http://stocksnap.io" target="_blank">stocksnap</a>.</p>
+				<p>This is a sample website from <a href="https://anhkarppinen.com" target="_blank">Ani's Webdev Blog</a>. Photos used in this site are free-to-use resources from <a href="http://unsplash.com" target="_blank">unsplash</a> and <a href="http://stocksnap.io" target="_blank">stocksnap</a>.</p>
 			</article>
 		</div>
-	</div>		
+	</div>
 </div>
 </body>
 </section>
